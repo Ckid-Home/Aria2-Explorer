@@ -65,6 +65,9 @@
    "captureMagnetWarn":{
       "message":"OS level capture, please ensure disabling before uninstall"
    },
+   "captureMagnetTip":{
+      "message":"Click 'No' on Windows prompts UAC confirm dialog, if you don't want the system level capture."
+   },
    "websiteStr":{
       "message":"Website"
    },

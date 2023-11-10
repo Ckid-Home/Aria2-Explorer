@@ -65,6 +65,9 @@
    "captureMagnetWarn":{
       "message":"OSレベルのキャプチャ、アンインストール前に無効にすることを確認してください"
    },
+   "captureMagnetTip":{
+      "message":"システムレベルのインターセプトが必要ない場合は、Windows で UAC ダイアログ ボックスが表示されたら、[いいえ] をクリックします。"
+   },
    "websiteStr":{
       "message":"ウェブサイト"
    },

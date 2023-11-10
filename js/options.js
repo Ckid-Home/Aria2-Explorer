@@ -34,6 +34,12 @@ var Configs =
             $("#keepAwake").prop("disabled", !$("#monitorAria2").prop("checked"));
         })
 
+        if (Utils.getPlatform() == "Windows") {
+            let tooltip = chrome.i18n.getMessage("captureMagnetTip")
+            $("#captureMagnet").parent().addClass("tool-tip tool-tip-icon");
+            $("#captureMagnet").parent().attr("tooltip-content", tooltip);
+        }
+
         for (const input of $("input[type=text],input[type=number]")) {
             if (Configs[input.id])
                 input.value = Configs[input.id];

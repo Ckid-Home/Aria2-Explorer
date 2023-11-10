@@ -65,6 +65,9 @@
    "captureMagnetWarn":{
       "message":"系统级拦截，卸载前请确保关闭"
    },
+   "captureMagnetTip":{
+      "message":"如果不需要系统级拦截，请在Windows弹出UAC对话框时点击[否]。"
+   },
    "websiteStr":{
       "message":"网站"
    },
